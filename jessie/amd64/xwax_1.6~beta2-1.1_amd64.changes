@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Mon, 08 Aug 2016 17:39:52 +0100
+Source: xwax
+Binary: xwax
+Architecture: source amd64
+Version: 1.6~beta2-1.1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Changed-By: Daniel James <daniel@64studio.com>
+Description:
+ xwax       - open-source vinyl emulation software for Linux
+Changes:
+ xwax (1.6~beta2-1.1) unstable; urgency=low
+ .
+   * Non-maintainer upload
+   * New upstream release
+   * Fix typo in 'which avconv'
+   * Font package name has changed, avoid pulling in transitional package
+   * Bump debhelper compatibility version
+   * Use https for Vcs fields in control file
+Checksums-Sha1:
+ db10f88938a8e4148823d4634476a6a321e8750e 1147 xwax_1.6~beta2-1.1.dsc
+ aa1d56725daf9e2daabf906959767ea3a33b4f94 79799 xwax_1.6~beta2.orig.tar.gz
+ 29fd2c089815e2658283a6e7ca7026abde4a1c0d 4344 xwax_1.6~beta2-1.1.debian.tar.xz
+ 600785360348a266a6391fd9f9846c3a5a0be81e 45406 xwax_1.6~beta2-1.1_amd64.deb
+Checksums-Sha256:
+ b7f5bf7e8d89d234a3b9ef2beb68afe75942d0adbd20493342e33afb412606e3 1147 xwax_1.6~beta2-1.1.dsc
+ 352db222067ca50bc8635f9f6ac46e6d6ee620ecacd4d991da839633ecdebff4 79799 xwax_1.6~beta2.orig.tar.gz
+ 2f0ce3fff4c950027995a85677add58e8ac663230b7b173fc1975c02e87488bb 4344 xwax_1.6~beta2-1.1.debian.tar.xz
+ c051a3734d56512b7e2467f8f17311f82dab71597de1e090948e99f91785e4c8 45406 xwax_1.6~beta2-1.1_amd64.deb
+Files:
+ 7f132326e639d0afdfe1b71b427edfcf 1147 sound extra xwax_1.6~beta2-1.1.dsc
+ 76c729155a5bcb7a03b6f0a32a67efd3 79799 sound extra xwax_1.6~beta2.orig.tar.gz
+ 0974f44b6041a185a52cdc8d99218aea 4344 sound extra xwax_1.6~beta2-1.1.debian.tar.xz
+ e40d6ffa93a307f6a61d4434d5ef980c 45406 sound extra xwax_1.6~beta2-1.1_amd64.deb
