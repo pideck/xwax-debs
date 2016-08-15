@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Mon, 15 Aug 2016 11:19:34 +0100
+Source: xwax
+Binary: xwax
+Architecture: source armhf
+Version: 1.6-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Changed-By: Daniel James <daniel@64studio.com>
+Description:
+ xwax       - open-source vinyl emulation software for Linux
+Changes:
+ xwax (1.6-1) UNRELEASED; urgency=medium
+ .
+   * New upstream release
+   * Remove patch that was merged upstream in 1.6 final release
+   * Font package name has changed, avoid pulling in transitional package
+   * Bump debhelper compatibility version
+   * Use https for Vcs fields in control file
+   * Update Debian readme with current script name and wiki link
+Checksums-Sha1:
+ ea5a45fca5caada57d2c7a153737413631dc22dd 1133 xwax_1.6-1.dsc
+ 7906a9b32fe842098187dd17595044948211c938 80134 xwax_1.6.orig.tar.gz
+ abb5f1011cc54e26a6a464d6c0e7462d5ca8d1aa 4020 xwax_1.6-1.debian.tar.xz
+ de5f74df8fb7a8c0d1bf2fb4a736782d4cd796b1 41244 xwax_1.6-1_armhf.deb
+Checksums-Sha256:
+ 35d1b94f63514d45f9745a1ebf26eeebd4a4c65e6987e4a8bd6057aaa7c91590 1133 xwax_1.6-1.dsc
+ fc158b82cf73a800407fe5d6d7406713c7b3c06c5ed3288be39cdc2a8dcb68b4 80134 xwax_1.6.orig.tar.gz
+ 76f48a4e79c325ff021c5de8e07382e7c358ced896241f9431324c141e03f0f3 4020 xwax_1.6-1.debian.tar.xz
+ 1c73965743489201d60e576dbd0a11465093ff1f71b7a3a9563d601de312e24d 41244 xwax_1.6-1_armhf.deb
+Files:
+ 2fda079269f4d247046e2f65c3324165 1133 sound extra xwax_1.6-1.dsc
+ dbcd281f8ad372b54db6f772950fbb98 80134 sound extra xwax_1.6.orig.tar.gz
+ 3e1cd5f17ca63fd0af9ed56bf941ed35 4020 sound extra xwax_1.6-1.debian.tar.xz
+ b3048c89d9f99f2eae70f2be31a48510 41244 sound extra xwax_1.6-1_armhf.deb
